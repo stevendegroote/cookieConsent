@@ -6,11 +6,11 @@ This plugin is designed to show a bar that informs the user of the use of cookie
 ## Usage
 Include cookie-consent.js in your website, and call below code to initialise the plugin.
 
-´´´js
+```js
 $(document).ready(function () {
 	$(window).cookieConsent();
 }
-´´´
+```
 
 For performance reasons, do not forget to minify the JS and CSS files when using on production sites.
 
